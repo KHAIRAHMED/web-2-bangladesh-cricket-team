@@ -1,0 +1,51 @@
+*{
+    margin-top:20px
+}
+.players-container{
+    display: flex;
+}
+.players-info{
+    width: 70%;
+    /* margin: auto; */
+}
+.team{
+    width: 25%;
+    margin: 0 auto;
+}
+@media(max-width:1280px){
+        .players-info{
+            margin: auto;
+        }
+        .team{
+            margin: 0 auto;
+        }
+}
+
+@media(max-width:890px){
+    .players-info{
+        width: 60%;
+   
+    }
+    .team{
+        width: 35%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:890px){
+    .players-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .team{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-bottom: 25px;
+        width: 50%;
+    }
+    .players-info{
+        width: 50%;
+        margin: auto;
+    }
+}

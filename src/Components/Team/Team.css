@@ -1,0 +1,17 @@
+.team-container{
+    /* width: 90%; */
+    /* margin: auto; */
+    /* border-left: 1px solid gray; */
+}
+.button{
+    width: 90%;
+    margin: auto;
+}
+/* @media(max-width:890px){
+    .team-container{
+        display: grid;
+        grid-row-start: 1;
+        grid-row: 2;
+    }
+
+} */
